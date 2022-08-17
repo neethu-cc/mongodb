@@ -1,18 +1,18 @@
 users:
-  - name: userone
+  - name: user1
     password: $MONGOUSER1_PASSWORD
-  - name: usertwo
+  - name: user2
     password: $MONGOUSER2_PASSWORD
     
 
 databases:
-  - name: sample
-  - name: sample2
+  - name: test1
+  - name: test2
 
 acl:
-  - database: sample
-    user: userone
+  - database: test1
+    user: user1
     access: dbOwner
-  - database: sample2
-    user: usertwo
+  - database: test2
+    user: user2
     access: dbOwner
