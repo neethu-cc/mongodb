@@ -4,11 +4,11 @@ app:
   notify: njose@ecloudcontrol.com
 
 build:
-  version: 4.4
+  version: 5.0
   env: DEV
   build_file: none
   output_files: output/*.zip
-  image_template: mongo-4.4
+  image_template: mongo-5.0
   
 deploy:
   context: neethu-cc/DEV
